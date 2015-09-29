@@ -1,11 +1,14 @@
 package de.fred4jupiter.spring.boot.jsf.bean;
 
+import de.fred4jupiter.spring.boot.jsf.ScopeName;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Component
+@Scope(ScopeName.VIEW)
 public class HelloWorldBean {
 
     public String hello() {
