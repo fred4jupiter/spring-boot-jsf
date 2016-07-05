@@ -4,6 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * Call http://localhost:8080/index.xhtml after starting the application.
+ * 
+ * @author MIS
+ *
+ */
 @SpringBootApplication
 @ComponentScan(scopeResolver = SessionReplicationAwareScopeMetadataResolver.class)
 public class SpringBootJsfApplication {
