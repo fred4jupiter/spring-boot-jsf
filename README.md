@@ -5,6 +5,10 @@ After starting the application by
 
 `java -jar spring-boot-jsf-0.0.1-SNAPSHOT.jar`
 
-you can access the demo JSF page at [http://localhost:8080/index.xhtml](http://localhost:8080/index.xhtml).
+or 
+
+`mvn clean install spring-boot:run`
+
+you can access the demo JSF page at [http://localhost:8080](http://localhost:8080).
 
 
