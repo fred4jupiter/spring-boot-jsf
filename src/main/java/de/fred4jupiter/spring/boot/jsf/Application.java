@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+import de.fred4jupiter.spring.boot.jsf.scope.SessionReplicationAwareScopeMetadataResolver;
+
 /**
  * Call http://localhost:8080/index.xhtml after starting the application.
  * 
@@ -12,9 +14,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(scopeResolver = SessionReplicationAwareScopeMetadataResolver.class)
-public class SpringBootJsfApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootJsfApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }

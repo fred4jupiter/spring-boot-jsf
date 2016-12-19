@@ -1,8 +1,9 @@
 package de.fred4jupiter.spring.boot.jsf.bean;
 
-import de.fred4jupiter.spring.boot.jsf.ScopeName;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import de.fred4jupiter.spring.boot.jsf.scope.ScopeName;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

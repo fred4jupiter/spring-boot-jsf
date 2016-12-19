@@ -1,4 +1,4 @@
-package de.fred4jupiter.spring.boot.jsf;
+package de.fred4jupiter.spring.boot.jsf.scope;
 
 /**
  * Created by MIS on 29.09.2015.
