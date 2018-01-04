@@ -82,22 +82,5 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>spring_milestone</id>
-			<name>Spring Milestome Repo</name>
-			<url>http://repo.springsource.org/milestone</url>
-		</pluginRepository>
-	</pluginRepositories>
-
-	<repositories>
-		<repository>
-			<id>spring_milestone</id>
-			<name>Spring Milestome Repo</name>
-			<url>http://repo.springsource.org/milestone</url>
-		</repository>
-	</repositories>
-
+	</build>	
 </project>
